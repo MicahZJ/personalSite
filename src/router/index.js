@@ -26,7 +26,7 @@ export default new Router({
     {
       path: '/admin',
       name: 'admin',
-      component: 000,
+      component: AdminInterface,
       children: [
         {
           path: 'AddArticle',
